@@ -1,11 +1,11 @@
-// 1 2 3 4 5
-// 1 2 3 4 5
-// 1 2 3 4 5
-// 1 2 3 4 5
-// 1 2 3 4 5
+// 1
+// 2 1
+// 3 2 1
+// 4 3 2 1
+// 5 4 3 2 1
 
 import java.util.*;
-class demo1
+class demo5
 {
 public static void main(String args[])
 {
@@ -15,9 +15,9 @@ public static void main(String args[])
 
 	for(int i=1;i<n+1;i++)
 	{
-		for(int j=1;j<n+1;j++)
+		for(int j=i;j>=1;j--)
 		{
-			System.out.print(j + " ");
+			System.out.print(j+ " ");
 		}
 		System.out.println();
 	}
