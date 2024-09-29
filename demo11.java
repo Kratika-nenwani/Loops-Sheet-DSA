@@ -20,6 +20,6 @@ public static void main(String args[])
 			System.out.print(i+j+ " ");
 		}
 		System.out.println();
-	}
+	}sc.close();
 }
 }
